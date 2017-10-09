@@ -9,3 +9,6 @@ print(s)
 # Answer 2
 print(sum(set(range(0,1000,3)) | set(range(0,1000,5))))
 
+# Answer 3
+print(sum([n for n in range(1000) if n % 3 == 0 or n % 5 == 0]))
+
